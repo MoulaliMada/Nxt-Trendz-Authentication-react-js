@@ -1,0 +1,89 @@
+/* Write your CSS code here */
+.header-logo {
+  width: 30%;
+}
+.header-bg-container {
+  padding: 10px;
+}
+.header-icons-container {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #e6f6ff;
+}
+.header-home-icons {
+  width: 20px;
+}
+.header-icons-desktop-view {
+  display: none;
+}
+.header-logout-btn {
+  display: none;
+}
+.header-logout {
+  width: 30px;
+}
+.header-logo-logout-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .header-bg-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-icons-container {
+    display: none;
+  }
+  .header-icons-desktop-view {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+  }
+  .header-logo {
+    width: 20%;
+  }
+  .header-text-heading {
+    color: #64748b;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .header-logout-btn {
+    border-radius: 5px;
+    background-color: #0b69ff;
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: white;
+    padding: 10px;
+    border: none;
+    display: flex;
+  }
+  .header-logout {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .header-logo {
+    width: 20%;
+  }
+  .header-icons-desktop-view {
+    width: 40%;
+  }
+}
+@media (min-width: 1200px) {
+  .header-logo {
+    width: 20%;
+  }
+  .header-icons-desktop-view {
+    width: 30%;
+  }
+}

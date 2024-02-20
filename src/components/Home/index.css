@@ -1,0 +1,86 @@
+/* Write your CSS code here */
+.home-heading {
+  font-size: 25px;
+  margin-top: 0px;
+}
+.home-container {
+  font-family: 'Roboto';
+  padding: 10px;
+  padding-top: 0px;
+  text-align: center;
+}
+.home-mobile-image {
+  width: 50%;
+}
+.home-description {
+  color: #64748b;
+  font-size: 10px;
+  line-height: 15px;
+}
+.home-shop-now-btn {
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 50%;
+  border-radius: 5px;
+}
+.home-desktop-image {
+  display: none;
+}
+@media (min-width: 768px) {
+  .home-mobile-image {
+    display: none;
+  }
+  .home-desktop-image {
+    display: flex;
+    width: 30%;
+  }
+  .home-container {
+    font-family: 'Roboto';
+    padding: 0px;
+    text-align: start;
+    width: 60%;
+  }
+  .home-description-image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: flex-start;
+  }
+  .home-bg-container {
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .home-heading {
+    font-size: 30px;
+  }
+  .home-description {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .home-shop-now-btn {
+    width: 30%;
+  }
+}
+@media (min-width: 992px) {
+  .home-description {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .home-heading {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .home-description {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .home-heading {
+    font-size: 50px;
+  }
+}
